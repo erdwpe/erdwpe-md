@@ -28,7 +28,7 @@ async function glbl() {
             printQRInTerminal: true,
             auth: state,
             version,
-            browser: ['erdwpe Base', 'Safari', '3.0'],
+            browser: ['Erdwpe-MD', 'Safari', '3.0'],
            
             getMessage: async key => {
                 return {
