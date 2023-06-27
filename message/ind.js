@@ -25,9 +25,6 @@ exports.wrongFormat = (prefix) => {
 exports.notfound = (prefix) => {
     return (`Command Tersebut Sepertinya Tidak Ada Silakan Cek Lagi Di *${prefix}menu*\n\nIt Seems That The Command Doesn't Exist. Please Check Again On The *${prefix}menu*`)
 }
-exports.notfound = (prefix) => {
-    return (`Command Tersebut Sepertinya Tidak Ada Silakan Cek Lagi Di *${prefix}menu*\n\nIt Seems That The Command Doesn't Exist. Please Check Again On The *${prefix}menu*`)
-}
 exports.menu = (prefix, salam, time) => {
 return `◪ 𝗜𝗡𝗙𝗢
 ❏ *Prefix:* 「  ${prefix} 」
